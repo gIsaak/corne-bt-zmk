@@ -22,7 +22,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             hold-while-undecided;
             hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 40 41 42>;
             hold-trigger-on-release;
@@ -40,6 +40,24 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 34 35 36 37 38 39 43 44 45>;
         };
+
+        COM_SEM: COM_SEM {
+            compatible = "zmk,behavior-mod-morph";
+            label = "COM_SEM";
+            bindings = <&kp KP_COMMA>, <&kp SEMI>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        DOT_COL: DOT_COL {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DOT_COL";
+            bindings = <&kp DOT>, <&kp COLON>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     keymap {
@@ -55,19 +73,19 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp C_AC_CUT    &kp Q  &kp W            &kp E         &kp R              &kp T            &none  &none  &kp Y             &kp U               &kp I         &kp O             &kp P             &kp EQUAL
-&kp C_AC_PASTE  &kp A  &HML LEFT_ALT S  &HML LCTRL D  &HML LEFT_SHIFT F  &HML LEFT_GUI G  &none  &none  &HMR RIGHT_GUI H  &HMR RIGHT_SHIFT J  &HMR RCTRL K  &HMR RIGHT_ALT L  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp C_AC_PASTE  &kp Z  &kp X            &kp C         &kp V              &kp B                          &kp N             &kp M               &kp COMMA     &kp DOT           &kp FSLH          &kp MINUS
-                                        &kp TAB       &lt 5 ESC          &lt 4 SPACE                    &lt 1 RET         &lt 2 BSPC          &lt 3 DEL
+&kp LG(X)  &kp Q  &kp W            &kp E         &kp R              &kp T            &none  &none  &kp Y             &kp U               &kp I         &kp O             &kp P             &kp EQUAL
+&kp LG(C)  &kp A  &HML LEFT_ALT S  &HML LCTRL D  &HML LEFT_SHIFT F  &HML LEFT_GUI G  &none  &none  &HMR RIGHT_GUI H  &HMR RIGHT_SHIFT J  &HMR RCTRL K  &HMR RIGHT_ALT L  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LG(P)  &kp Z  &kp X            &kp C         &kp V              &kp B                          &kp N             &kp M               &COM_SEM      &DOT_COL          &kp FSLH          &kp MINUS
+                                   &kp TAB       &lt 5 ESC          &lt 4 SPACE                    &lt 1 RET         &lt 2 BSPC          &lt 3 DEL
             >;
         };
 
         symbol_layer {
             bindings = <
-&kp END    &kp LESS_THAN  &kp GREATER_THAN  &kp PERCENT           &kp DOUBLE_QUOTES      &kp APOSTROPHE  &none  &none  &none   &none   &none   &none   &none  &none
-&kp HOME   &kp CARET      &kp AT            &kp POUND             &kp ASTRK              &kp DOLLAR      &none  &none  &trans  &trans  &trans  &trans  &none  &none
-&kp GLOBE  &kp PIPE       &kp BACKSLASH     &kp TILDE             &kp GRAVE              &kp EXCL                      &none   &none   &none   &none   &none  &none
-                                            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER                     &trans  &none   &none
+&kp END    &kp LESS_THAN  &kp GREATER_THAN  &kp PERCENT  &kp DOUBLE_QUOTES     &kp APOSTROPHE         &none  &none  &none   &none   &none   &none   &none  &none
+&kp HOME   &kp CARET      &kp AT            &kp POUND    &kp ASTRK             &kp DOLLAR             &none  &none  &trans  &trans  &trans  &trans  &none  &none
+&kp GLOBE  &kp PIPE       &kp TILDE         &kp AMPS     &kp GRAVE             &kp EXCL                             &none   &none   &none   &none   &none  &none
+                                            &kp SLASH    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                &trans  &none   &none
             >;
 
             label = "SYM";
