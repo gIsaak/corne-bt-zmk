@@ -44,7 +44,7 @@
         COM_SEM: COM_SEM {
             compatible = "zmk,behavior-mod-morph";
             label = "COM_SEM";
-            bindings = <&kp KP_COMMA>, <&kp SEMI>;
+            bindings = <&kp COMMA>, <&kp SEMI>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -75,7 +75,7 @@
             bindings = <
 &kp LG(X)  &kp Q  &kp W            &kp E         &kp R              &kp T            &none  &none  &kp Y             &kp U               &kp I         &kp O             &kp P             &kp EQUAL
 &kp LG(C)  &kp A  &HML LEFT_ALT S  &HML LCTRL D  &HML LEFT_SHIFT F  &HML LEFT_GUI G  &none  &none  &HMR RIGHT_GUI H  &HMR RIGHT_SHIFT J  &HMR RCTRL K  &HMR RIGHT_ALT L  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LG(P)  &kp Z  &kp X            &kp C         &kp V              &kp B                          &kp N             &kp M               &COM_SEM      &DOT_COL          &kp FSLH          &kp MINUS
+&kp LG(V)  &kp Z  &kp X            &kp C         &kp V              &kp B                          &kp N             &kp M               &COM_SEM      &DOT_COL          &kp FSLH          &kp MINUS
                                    &kp TAB       &lt 5 ESC          &lt 4 SPACE                    &lt 1 RET         &lt 2 BSPC          &lt 3 DEL
             >;
         };
