@@ -26,8 +26,7 @@
             , <&gpio1   6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
         col-gpios
-            = <&gpio1 13 GPIO_ACTIVE_HIGH>
-            , <&gpio0  5 GPIO_ACTIVE_HIGH>
+            = <&gpio0  5 GPIO_ACTIVE_HIGH>
             , <&gpio0  9 GPIO_ACTIVE_HIGH>
             , <&gpio0 10 GPIO_ACTIVE_HIGH>
             , <&gpio1  0 GPIO_ACTIVE_HIGH>
@@ -46,19 +45,7 @@
 };
 
 &default_transform {
-    col-offset = <7>;
-};
-
-&five_col_transform {
-    col-offset = <7>;
-};
-
-&right_ex1_encoder {
-    status = "okay";
-};
-
-&right_ex2_encoder {
-    status = "okay";
+    col-offset = <6>;
 };
 
 &pinctrl {
