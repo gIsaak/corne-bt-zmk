@@ -76,7 +76,7 @@
         symbol_layer {
             bindings = <
 &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES     &kp TILDE                  &none   &none   &none   &none   &none  &none
-&trans  &kp AT         &kp DOLLAR        &kp POUND         &kp ASTRK             &kp CARET                  &trans  &trans  &trans  &trans  &none  &none
+&trans  &kp AT         &kp CARET         &kp POUND         &kp ASTRK             &kp DOLLAR                 &trans  &trans  &trans  &trans  &none  &none
 &trans  &kp PERCENT    &kp GRAVE         &kp AMPS          &kp PIPE              &kp BACKSLASH              &none   &none   &none   &none   &none  &none
                                          &kp EXCLAMATION   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &trans  &none   &none
             >;
