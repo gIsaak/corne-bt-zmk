@@ -130,7 +130,7 @@ layers:
   - {type: held}
   - ''
   KB:
-  - ''
+  - '&sys_reset'
   - ''
   - RGB SAI
   - RGB HUI
@@ -141,8 +141,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&sys_reset'
+  - '&bootloader'
   - ''
   - ''
   - RGB BRI
@@ -153,8 +153,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - ''
+  - '&bootloader'
+  - BT CLR
   - ''
   - ''
   - BT NXT
