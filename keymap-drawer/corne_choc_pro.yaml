@@ -1,0 +1,260 @@
+layout: {zmk_keyboard: corne_choc_pro, layout_name: default_layout}
+layers:
+  BASE:
+  - END
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '='
+  - HOME
+  - A
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT GUI}
+  - {t: F, h: LEFT SHIFT}
+  - {t: G, h: LCTRL}
+  - {t: H, h: RCTRL}
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT GUI}
+  - {t: L, h: RIGHT ALT}
+  - '['
+  - ']'
+  - '&caps_word'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - /
+  - '-'
+  - ESCAPE
+  - {t: SPACE, h: MEDIA}
+  - {t: TAB, h: NAV}
+  - {t: RET, h: SYM}
+  - {t: BSPC, h: NUM}
+  - {t: DEL, h: KB}
+  SYM:
+  - {t: ▽, type: trans}
+  - <
+  - '>'
+  - ''''
+  - '"'
+  - '~'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - '@'
+  - ^
+  - '#'
+  - '*'
+  - $
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - '%'
+  - '`'
+  - '&'
+  - '|'
+  - \
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '!'
+  - (
+  - )
+  - {type: held}
+  - ''
+  - ''
+  NUM:
+  - ''
+  - '*'
+  - '9'
+  - '8'
+  - '7'
+  - '='
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '-'
+  - '6'
+  - '5'
+  - '4'
+  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - \
+  - '3'
+  - '2'
+  - '1'
+  - .
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BACKSPACE
+  - '0'
+  - RET
+  - ''
+  - {type: held}
+  - ''
+  KB:
+  - ''
+  - ''
+  - RGB SAI
+  - RGB HUI
+  - RGB HUD
+  - RGB SAD
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB BRI
+  - RGB BRD
+  - RGB TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT NXT
+  - BT PRV
+  - '&studio_unlock'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  NAV:
+  - ''
+  - ''
+  - Gui+X
+  - Gui+V
+  - Gui+C
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  MEDIA:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PLAY PAUSE
+  - PREV
+  - NEXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - MUTE
+  - VOL DN
+  - VOLUME UP
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BRI DEC
+  - BRIGHTNESS INC
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - AC SEARCH
+  - AC DESKTOP SHOW ALL WINDOWS
+  - AC DESKTOP SHOW ALL APPLICATIONS
