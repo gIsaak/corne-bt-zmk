@@ -38,8 +38,8 @@ layers:
   - /
   - '-'
   - ESCAPE
-  - {t: SPACE, h: MEDIA}
-  - {t: TAB, h: NAV}
+  - {t: TAB, h: MEDIA}
+  - {t: SPACE, h: NAV}
   - {t: RET, h: SYM}
   - {t: BSPC, h: NUM}
   - {t: DEL, h: KB}
