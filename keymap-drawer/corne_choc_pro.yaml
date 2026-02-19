@@ -13,19 +13,19 @@ layers:
   - O
   - P
   - '='
-  - HOME
+  - '&caps_word'
   - A
-  - {t: S, h: LEFT ALT}
+  - {t: S, h: LCTRL}
   - {t: D, h: LEFT GUI}
   - {t: F, h: LEFT SHIFT}
-  - {t: G, h: LCTRL}
-  - {t: H, h: RCTRL}
+  - {t: G, h: LEFT ALT}
+  - {t: H, h: RIGHT ALT}
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT GUI}
-  - {t: L, h: RIGHT ALT}
+  - {t: L, h: LCTRL}
   - '['
   - ']'
-  - '&caps_word'
+  - HOME
   - Z
   - X
   - C
@@ -88,11 +88,10 @@ layers:
   - ''
   NUM:
   - ''
-  - '*'
+  - ''
   - '9'
   - '8'
   - '7'
-  - '='
   - ''
   - ''
   - ''
@@ -100,11 +99,12 @@ layers:
   - ''
   - ''
   - ''
-  - '-'
+  - ''
+  - ''
   - '6'
   - '5'
   - '4'
-  - +
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,20 +112,20 @@ layers:
   - ''
   - ''
   - ''
-  - \
+  - ''
   - '3'
   - '2'
   - '1'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - .
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BACKSPACE
   - '0'
-  - RET
+  - ','
   - ''
   - {type: held}
   - ''
@@ -179,10 +179,10 @@ layers:
   - Gui+V
   - Gui+C
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
   - ''
   - ''
   - ''
@@ -212,9 +212,9 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
+  - RET
+  - BACKSPACE
+  - DEL
   MEDIA:
   - ''
   - ''
