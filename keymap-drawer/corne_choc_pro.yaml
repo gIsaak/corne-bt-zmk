@@ -37,8 +37,8 @@ layers:
   - {t: ., s: ':'}
   - /
   - '-'
-  - ESCAPE
-  - {t: TAB, h: MEDIA}
+  - {t: ESCAPE, h: MEDIA}
+  - {t: TAB, h: MACOS}
   - {t: SPACE, h: NAV}
   - {t: RET, h: SYM}
   - {t: BSPC, h: NUM}
@@ -200,8 +200,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - Sft+Gui+Z
+  - Gui+Z
   - ''
   - ''
   - ''
@@ -215,6 +215,49 @@ layers:
   - RET
   - BACKSPACE
   - DEL
+  MACOS:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Hyper+U
+  - Hyper+I
+  - Hyper+Y
+  - Hyper+H
+  - ''
+  - ''
+  - ''
+  - ''
+  - Hyper+A
+  - Gui+Sft+TAB
+  - Gui+TAB
+  - Hyper+D
+  - Hyper+L
+  - Hyper+G
+  - Hyper+Q
+  - Hyper+R
+  - Hyper+X
+  - Hyper+P
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Hyper+F
+  - Hyper+W
+  - Hyper+Z
+  - Hyper+S
+  - Hyper+O
+  - Hyper+C
+  - ''
+  - {type: held}
+  - ''
+  - Hyper+LEFT
+  - Hyper+RIGHT
+  - AC DESKTOP SHOW ALL WINDOWS
   MEDIA:
   - ''
   - ''
@@ -252,9 +295,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {type: held}
   - ''
-  - AC SEARCH
-  - AC DESKTOP SHOW ALL WINDOWS
-  - AC DESKTOP SHOW ALL APPLICATIONS
+  - ''
+  - ''
+  - ''
+  - ''
