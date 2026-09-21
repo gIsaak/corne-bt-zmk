@@ -118,10 +118,10 @@
         mac_layer {
             display-name = "MACOS";
             bindings = <
-&none        &none  &none                  &none            &none        &none                      &kp LS(LA(LC(LG(U))))     &kp LS(LA(LC(LG(I))))      &kp LS(LA(LC(LG(Y))))              &kp LS(LA(LC(LG(H))))  &none                  &none
-&none        &none  &kp LS(LA(LC(LG(A))))  &kp LG(LS(TAB))  &kp LG(TAB)  &kp LS(LA(LC(LG(D))))      &kp LS(LA(LC(LG(L))))     &kp LS(LA(LC(LG(G))))      &kp LS(LA(LC(LG(Q))))              &kp LS(LA(LC(LG(R))))  &kp LS(LA(LC(LG(X))))  &kp LS(LA(LC(LG(P))))
-&bootloader  &none  &none                  &none            &none        &none                      &kp LS(LA(LC(LG(F))))     &kp LS(LA(LC(LG(W))))      &kp LS(LA(LC(LG(Z))))              &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(O))))  &kp LS(LA(LC(LG(C))))
-                                           &none            &trans       &none                      &kp LA(LG(LC(LS(LEFT))))  &kp LS(LC(LG(LA(RIGHT))))  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS
+&kp LS(LA(LC(LG(END))))   &kp LS(LA(LC(LG(Q))))     &kp LS(LA(LC(LG(W))))     &kp LS(LA(LC(LG(E))))     &kp LS(LA(LC(LG(R))))     &kp LS(LA(LC(LG(T))))         &kp LS(LA(LC(LG(Y))))     &kp LS(LA(LC(LG(U))))     &kp LS(LA(LC(LG(I))))     &kp LS(LA(LC(LG(O))))     &kp LS(LA(LC(LG(P))))     &kp LS(LA(LC(LG(EQUAL))))
+&trans                    &kp LS(LA(LC(LG(A))))     &kp LS(LA(LC(LG(S))))     &kp LS(LA(LC(LG(D))))     &kp LS(LA(LC(LG(F))))     &kp LS(LA(LC(LG(G))))         &kp LS(LA(LC(LG(H))))     &kp LS(LA(LC(LG(J))))     &kp LS(LA(LC(LG(K))))     &kp LS(LA(LC(LG(L))))     &kp LS(LA(LC(LG(LBKT))))  &kp LS(LA(LC(LG(RBKT))))
+&kp LS(LA(LC(LG(HOME))))  &kp LS(LA(LC(LG(Z))))     &kp LS(LA(LC(LG(X))))     &kp LS(LA(LC(LG(C))))     &kp LS(LA(LC(LG(V))))     &kp LS(LA(LC(LG(B))))         &kp LS(LA(LC(LG(N))))     &kp LS(LA(LC(LG(M))))     &kp LS(LA(LC(LG(COMMA)))) &kp LS(LA(LC(LG(DOT))))   &kp LS(LA(LC(LG(FSLH))))  &kp LS(LA(LC(LG(MINUS))))
+                                                                              &kp LS(LA(LC(LG(ESC))))   &trans                    &kp LS(LA(LC(LG(SPACE))))     &kp LS(LA(LC(LG(RET))))   &kp LS(LA(LC(LG(BSPC))))  &kp LS(LA(LC(LG(DEL))))
             >;
         };
 
