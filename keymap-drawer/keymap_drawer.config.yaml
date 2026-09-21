@@ -1,2 +1,8 @@
+parse_config:
+  modifier_fn_map:
+    special_combinations:
+      left_ctrl+left_alt+left_gui+left_shift: HYPR
+      left_ctrl+left_alt+left_shift: Meh
+
 draw_config:
   dark_mode: true
