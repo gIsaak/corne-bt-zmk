@@ -299,8 +299,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">TAB</text>
-<a href="#MACOS">
-<text x="0" y="24" class="key hold layer-activator">MACOS</text>
+<a href="#APP">
+<text x="0" y="24" class="key hold layer-activator">APP</text>
 </a></g>
 <g transform="translate(350, 215) rotate(24.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -958,14 +958,12 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 1606)" class="layer-MACOS">
-<text x="0" y="28" class="label" id="MACOS">MACOS:</text>
+<g transform="translate(30, 1606)" class="layer-APP">
+<text x="0" y="28" class="label" id="APP">APP:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">HYPR+</tspan><tspan x="0" dy="1.2em">END</tspan>
-</text>
+<text x="0" y="0" class="key tap">HYPR+9</text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -973,7 +971,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">HYPR+W</text>
+<text x="0" y="0" class="key tap">HYPR+0</text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1013,9 +1011,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(28, 105)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">HYPR+</tspan><tspan x="0" dy="1.2em">CAPS</tspan>
-</text>
+<text x="0" y="0" class="key tap">HYPR+8</text>
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1063,9 +1059,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(28, 161)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">HYPR+</tspan><tspan x="0" dy="1.2em">HOME</tspan>
-</text>
+<text x="0" y="0" class="key tap">HYPR+7</text>
 </g>
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1097,19 +1091,27 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(644, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">HYPR+,</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">HYPR+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
+</text>
 </g>
 <g transform="translate(700, 147)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">HYPR+.</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">HYPR+UP</tspan><tspan x="0" dy="1.2em">ARROW</tspan>
+</text>
 </g>
 <g transform="translate(756, 161)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">HYPR+/</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">HYPR+</tspan><tspan x="0" dy="1.2em">DOWN</tspan><tspan x="0" dy="1.2em">ARROW</tspan>
+</text>
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">HYPR+-</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">HYPR+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 <g transform="translate(224, 203)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1122,21 +1124,15 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(490, 215) rotate(-24.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">HYPR+</tspan><tspan x="0" dy="1.2em">RET</tspan>
-</text>
+<text x="0" y="0" class="key tap">HYPR+4</text>
 </g>
 <g transform="translate(555, 209) rotate(-12.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">HYPR+</tspan><tspan x="0" dy="1.2em">BSPC</tspan>
-</text>
+<text x="0" y="0" class="key tap">HYPR+5</text>
 </g>
 <g transform="translate(616, 203)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">HYPR+</tspan><tspan x="0" dy="1.2em">DEL</tspan>
-</text>
+<text x="0" y="0" class="key tap">HYPR+6</text>
 </g>
 </g>
 </g>

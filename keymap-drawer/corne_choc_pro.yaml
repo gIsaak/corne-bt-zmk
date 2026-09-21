@@ -38,7 +38,7 @@ layers:
   - /
   - '-'
   - {t: ESCAPE, h: MEDIA}
-  - {t: TAB, h: MACOS}
+  - {t: TAB, h: APP}
   - {t: SPACE, h: NAV}
   - {t: RET, h: SYM}
   - {t: BSPC, h: NUM}
@@ -215,10 +215,10 @@ layers:
   - RET
   - BACKSPACE
   - DEL
-  MACOS:
-  - HYPR+END
+  APP:
+  - HYPR+9
   - HYPR+Q
-  - HYPR+W
+  - HYPR+0
   - HYPR+E
   - HYPR+R
   - HYPR+T
@@ -228,7 +228,7 @@ layers:
   - HYPR+O
   - HYPR+P
   - HYPR+=
-  - HYPR+CAPS
+  - HYPR+8
   - HYPR+A
   - HYPR+S
   - HYPR+D
@@ -240,7 +240,7 @@ layers:
   - HYPR+L
   - HYPR+[
   - HYPR+]
-  - HYPR+HOME
+  - HYPR+7
   - HYPR+Z
   - HYPR+X
   - HYPR+C
@@ -248,16 +248,16 @@ layers:
   - HYPR+B
   - HYPR+N
   - HYPR+M
-  - HYPR+,
-  - HYPR+.
-  - HYPR+/
-  - HYPR+-
+  - HYPR+LEFT
+  - HYPR+UP ARROW
+  - HYPR+DOWN ARROW
+  - HYPR+RIGHT
   - ''
   - {type: held}
   - ''
-  - HYPR+RET
-  - HYPR+BSPC
-  - HYPR+DEL
+  - HYPR+4
+  - HYPR+5
+  - HYPR+6
   MEDIA:
   - ''
   - ''
