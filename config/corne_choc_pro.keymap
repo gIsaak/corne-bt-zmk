@@ -115,13 +115,13 @@
             label = "NAV";
         };
 
-        mac_layer {
-            display-name = "MACOS";
+        app_layer {
+            display-name = "APP";
             bindings = <
-&kp LS(LA(LC(LG(END))))   &kp LS(LA(LC(LG(Q))))     &kp LS(LA(LC(LG(W))))     &kp LS(LA(LC(LG(E))))     &kp LS(LA(LC(LG(R))))     &kp LS(LA(LC(LG(T))))         &kp LS(LA(LC(LG(Y))))     &kp LS(LA(LC(LG(U))))     &kp LS(LA(LC(LG(I))))     &kp LS(LA(LC(LG(O))))     &kp LS(LA(LC(LG(P))))     &kp LS(LA(LC(LG(EQUAL))))
-&kp LS(LA(LC(LG(CAPS))))  &kp LS(LA(LC(LG(A))))     &kp LS(LA(LC(LG(S))))     &kp LS(LA(LC(LG(D))))     &kp LS(LA(LC(LG(F))))     &kp LS(LA(LC(LG(G))))         &kp LS(LA(LC(LG(H))))     &kp LS(LA(LC(LG(J))))     &kp LS(LA(LC(LG(K))))     &kp LS(LA(LC(LG(L))))     &kp LS(LA(LC(LG(LBKT))))  &kp LS(LA(LC(LG(RBKT))))
-&kp LS(LA(LC(LG(HOME))))  &kp LS(LA(LC(LG(Z))))     &kp LS(LA(LC(LG(X))))     &kp LS(LA(LC(LG(C))))     &kp LS(LA(LC(LG(V))))     &kp LS(LA(LC(LG(B))))         &kp LS(LA(LC(LG(N))))     &kp LS(LA(LC(LG(M))))     &kp LS(LA(LC(LG(COMMA)))) &kp LS(LA(LC(LG(DOT))))   &kp LS(LA(LC(LG(FSLH))))  &kp LS(LA(LC(LG(MINUS))))
-                                                                              &none                     &trans                    &none                         &kp LS(LA(LC(LG(RET))))   &kp LS(LA(LC(LG(BSPC))))  &kp LS(LA(LC(LG(DEL))))
+&kp LS(LA(LC(LG(N9))))  &kp LS(LA(LC(LG(Q))))  &kp LS(LA(LC(LG(N0))))  &kp LS(LA(LC(LG(E))))  &kp LS(LA(LC(LG(R))))  &kp LS(LA(LC(LG(T))))      &kp LS(LA(LC(LG(Y))))   &kp LS(LA(LC(LG(U))))   &kp LS(LA(LC(LG(I))))     &kp LS(LA(LC(LG(O))))         &kp LS(LA(LC(LG(P))))           &kp LS(LA(LC(LG(EQUAL))))
+&kp LS(LA(LC(LG(N8))))  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))   &kp LS(LA(LC(LG(D))))  &kp LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))      &kp LS(LA(LC(LG(H))))   &kp LS(LA(LC(LG(J))))   &kp LS(LA(LC(LG(K))))     &kp LS(LA(LC(LG(L))))         &kp LS(LA(LC(LG(LBKT))))        &kp LS(LA(LC(LG(RBKT))))
+&kp LS(LA(LC(LG(N7))))  &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(LG(X))))   &kp LS(LA(LC(LG(C))))  &kp LS(LA(LC(LG(V))))  &kp LS(LA(LC(LG(B))))      &kp LS(LA(LC(LG(N))))   &kp LS(LA(LC(LG(M))))   &kp LS(LA(LG(LC(LEFT))))  &kp LS(LA(LC(LG(UP_ARROW))))  &kp LS(LA(LC(LG(DOWN_ARROW))))  &kp LS(LA(LC(LG(RIGHT))))
+                                                                       &none                  &trans                 &none                      &kp LS(LA(LC(LG(N4))))  &kp LS(LA(LC(LG(N5))))  &kp LS(LA(LC(LG(N6))))
             >;
         };
 
