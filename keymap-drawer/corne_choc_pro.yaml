@@ -216,19 +216,19 @@ layers:
   - BACKSPACE
   - DEL
   APP:
-  - HYPR+9
-  - HYPR+Q
-  - HYPR+0
+  - ''
+  - ''
+  - HYPR+P
   - HYPR+E
   - HYPR+R
-  - HYPR+T
+  - ''
   - HYPR+Y
   - HYPR+U
   - HYPR+I
   - HYPR+O
-  - HYPR+P
-  - HYPR+=
-  - HYPR+8
+  - ''
+  - ''
+  - ''
   - HYPR+A
   - HYPR+S
   - HYPR+D
@@ -238,9 +238,9 @@ layers:
   - HYPR+J
   - HYPR+K
   - HYPR+L
-  - HYPR+[
-  - HYPR+]
-  - HYPR+7
+  - ''
+  - ''
+  - ''
   - HYPR+Z
   - HYPR+X
   - HYPR+C
@@ -248,16 +248,16 @@ layers:
   - HYPR+B
   - HYPR+N
   - HYPR+M
-  - HYPR+LEFT
-  - HYPR+UP ARROW
-  - HYPR+DOWN ARROW
-  - HYPR+RIGHT
+  - HYPR+T
+  - HYPR+Q
+  - ''
+  - ''
   - ''
   - {type: held}
   - ''
-  - HYPR+4
-  - HYPR+5
-  - HYPR+6
+  - HYPR+RET
+  - HYPR+SPACE
+  - HYPR+TAB
   MEDIA:
   - ''
   - ''
