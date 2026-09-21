@@ -217,16 +217,16 @@ layers:
   - DEL
   APP:
   - ''
-  - ''
-  - HYPR+P
+  - HYPR+Q
+  - HYPR+W
   - HYPR+E
   - HYPR+R
-  - ''
+  - HYPR+T
   - HYPR+Y
   - HYPR+U
   - HYPR+I
   - HYPR+O
-  - ''
+  - HYPR+P
   - ''
   - ''
   - HYPR+A
@@ -241,15 +241,15 @@ layers:
   - ''
   - ''
   - ''
+  - ''
   - HYPR+Z
   - HYPR+X
-  - HYPR+C
   - HYPR+V
   - HYPR+B
   - HYPR+N
   - HYPR+M
-  - HYPR+T
-  - HYPR+Q
+  - ''
+  - ''
   - ''
   - ''
   - ''
