@@ -43,6 +43,49 @@ layers:
   - {t: RET, h: SYM}
   - {t: BSPC, h: NUM}
   - {t: DEL, h: KB}
+  STD:
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '='
+  - TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - '['
+  - ']'
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - '-'
+  - LCTRL
+  - LALT
+  - SPACE
+  - RET
+  - {t: BSPC, h: NUM}
+  - LEFT GUI
   SYM:
   - {t: ▽, type: trans}
   - <
@@ -87,18 +130,18 @@ layers:
   - ''
   - ''
   NUM:
-  - ''
+  - {t: STD, h: toggle}
   - ''
   - '9'
   - '8'
   - '7'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
   - ''
   - ''
   - '6'
@@ -117,12 +160,12 @@ layers:
   - '2'
   - '1'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - .
   - '0'
   - ','
