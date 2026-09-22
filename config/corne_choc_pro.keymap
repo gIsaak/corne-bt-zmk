@@ -69,7 +69,17 @@
 &kp END     &kp Q  &kp W         &kp E            &kp R              &kp T                &kp Y             &kp U               &kp I             &kp O         &kp P             &kp EQUAL
 &caps_word  &kp A  &HML LCTRL S  &HML LEFT_GUI D  &HML LEFT_SHIFT F  &HML LEFT_ALT G      &HMR RIGHT_ALT H  &HMR RIGHT_SHIFT J  &HMR RIGHT_GUI K  &HMR LCTRL L  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp HOME    &kp Z  &kp X         &kp C            &kp V              &kp B                &kp N             &kp M               &COM_SEM          &DOT_COL      &kp FSLH          &kp MINUS
-                                 &lt 6 ESCAPE     &lt 5 TAB          &lt 4 SPACE          &lt 1 RET         &lt 2 BSPC          &lt 3 DEL
+                                 &lt 7 ESCAPE     &lt 6 TAB          &lt 5 SPACE          &lt 2 RET         &lt 3 BSPC          &lt 4 DEL
+            >;
+        };
+
+        standard_layer {
+            display-name = "STD";
+            bindings = <
+&kp ESC    &kp Q  &kp W      &kp E     &kp R      &kp T      &kp Y    &kp U       &kp I         &kp O    &kp P             &kp EQUAL
+&kp TAB    &kp A  &kp S      &kp D     &kp F      &kp G      &kp H    &kp J       &kp K         &kp L    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LSHFT  &kp Z  &kp X      &kp C     &kp V      &kp B      &kp N    &kp M       &kp COMMA     &kp DOT  &kp FSLH          &kp MINUS
+                  &kp LCTRL  &kp LALT  &kp SPACE             &kp RET  &lt 3 BSPC  &kp LEFT_GUI
             >;
         };
 
@@ -87,10 +97,10 @@
         number_layer {
             display-name = "NUM";
             bindings = <
-&none  &none  &kp N9        &kp N8   &kp N7        &none          &none   &none   &none   &none   &none  &none
-&none  &none  &kp NUMBER_6  &kp N5   &kp NUMBER_4  &none          &trans  &trans  &trans  &trans  &none  &none
-&none  &none  &kp NUMBER_3  &kp N2   &kp NUMBER_1  &none          &none   &none   &none   &none   &none  &none
-                            &kp DOT  &kp N0        &kp COMMA      &none   &trans  &none
+&tog 1  &none  &kp N9  &kp N8   &kp N7  &none          &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
+&none   &none  &kp N6  &kp N5   &kp N4  &none          &trans  &trans  &trans  &trans   &none    &none
+&none   &none  &kp N3  &kp N2   &kp N1  &none          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+                       &kp DOT  &kp N0  &kp COMMA      &none   &trans  &none
             >;
         };
 
