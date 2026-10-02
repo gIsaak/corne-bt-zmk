@@ -98,8 +98,8 @@
             display-name = "NUM";
             bindings = <
 &tog 1  &none  &kp N9  &kp N8   &kp N7  &none          &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
-&none   &none  &kp N6  &kp N5   &kp N4  &none          &trans  &trans  &trans  &trans   &none    &none
-&none   &none  &kp N3  &kp N2   &kp N1  &none          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&none   &none  &kp N6  &kp N5   &kp N4  &none          &kp F7   &kp F8   &kp F9   &kp F10  &kp F11  &kp F12
+&none   &none  &kp N3  &kp N2   &kp N1  &none          &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18
                        &kp DOT  &kp N0  &kp COMMA      &none   &trans  &none
             >;
         };
